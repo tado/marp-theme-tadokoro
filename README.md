@@ -22,6 +22,11 @@ paginate: true
 ---
 ```
 
+## サンプル
+
+- [example.ja.md](example.ja.md)（日本語）
+- [example.en.md](example.en.md)（English）
+
 ## 書式
 
 | 書き方 | 表示 |
