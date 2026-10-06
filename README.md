@@ -1,5 +1,7 @@
 # marp-theme-tadokoro
 
+![tadokoro theme preview](images/preview.png)
+
 Marp 用カスタムテーマ `tadokoro`。
 
 ## 使い方（VS Code）
