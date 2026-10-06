@@ -24,8 +24,8 @@ paginate: true
 
 ## サンプル
 
-- [example.ja.md](example.ja.md)（日本語）
-- [example.en.md](example.en.md)（English）
+- [example.ja.md](example.ja.md) / [PDF](example.ja.pdf)（日本語）
+- [example.en.md](example.en.md) / [PDF](example.en.pdf)（English）
 
 ## 書式
 
