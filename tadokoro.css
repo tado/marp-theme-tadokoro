@@ -1,0 +1,94 @@
+/* @theme tadokoro */
+@import 'default';
+
+section {
+  font-family: 'Hiragino Sans W5', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #333;
+  font-size: 24px;
+  line-height: 1.5;
+}
+b, strong {
+  font-family: 'Hiragino Sans W8', sans-serif;
+  color: #111;
+}
+ol {
+  list-style-type: decimal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hiragino Sans W8', sans-serif;
+  color: #2277cc;
+  margin-bottom: 0.4em;
+}
+pre, code {
+  font-family: 'JetBrains Mono Slashed', 'Hiragino Sans W4', monospace;
+  line-height: 1.35;
+}
+kbd {
+  display: inline-block;
+  padding: 2px 7px;
+  font-family: inherit;
+  font-size: 0.82em;
+  color: #222;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 2px #fff;
+}
+/* > = tip、> > = warning（1枚のスライドに共存可） */
+.box-tip,
+section blockquote {
+  background-color: #eef6ff;
+  border-left: 5px solid #2277cc;
+  padding: 8px 16px;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.88em;
+  margin: 10px 0 0;
+  color: inherit;
+}
+section blockquote:has(> blockquote) {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1em;
+}
+.box-warning,
+section blockquote > blockquote {
+  background-color: #fff9e6;
+  border-left: 5px solid #e6a100;
+  padding: 8px 16px;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.85em;
+  margin: 8px 0 0;
+  color: inherit;
+}
+table {
+  font-size: 0.85em;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #f2f5f9;
+}
+section.bigtxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #2277cc;
+  color: #fff;
+}
+section.bigtxt :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 2.0rem;
+  color: #fff;
+}
+section.bigtxt :is(b, strong) {
+  color: #fff;
+}
+section.bigtxt::after {
+  color: #fff;
+}
